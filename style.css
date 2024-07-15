@@ -57,12 +57,15 @@ nav img{
   position: relative;
   display: flex;
 }
+
 .left-part{
-  width: 35%;
+  width: 30%;
   height: 100%;
   padding: 80px 20px 50px 60px;
 }
-
+.left-part::-webkit-scrollbar{
+  display: none;
+}
 .left-part h5{
   font-size: 12px;
   opacity: 0.4;
@@ -92,27 +95,34 @@ nav img{
 }
 
 .right-part{
-  width: 65%;
+  padding: 35px;
+  width: 70%;
   height: 100%;
   position: relative;
+  white-space: nowrap;
+  overflow-x: auto;
 }
 .img-slider{
-  margin-top: 30px;
-  height: 480px;
+  display: inline-block;
+  height: 430px;
   width: 320px;
   background-color: #fff;
   position: relative;
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin-right: 15px;
 }
 .img-slider img{
   position: absolute;
   top: 20%;
-  height: 50%;
-  width: 100%;
+  left: 10%;
+  height: 40%;
+  width: 80%;
   object-fit: cover;
 }
 .img-slider h4{
+  font-size: 16px;
+  font-weight: 600;
   position: absolute;
   bottom: 0;
   right: 0;
