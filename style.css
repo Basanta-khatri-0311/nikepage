@@ -63,9 +63,12 @@ nav img{
   height: 100%;
   padding: 80px 20px 50px 60px;
 }
-.left-part::-webkit-scrollbar{
+
+
+.right-part::-webkit-scrollbar{
   display: none;
 }
+
 .left-part h5{
   font-size: 12px;
   opacity: 0.4;
